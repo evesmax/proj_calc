@@ -1,3 +1,9 @@
+def suma(a,b):
+  sumando_a = get_fractions(a)
+  sumando_b = get_fractions(b)
+  return sumando_a + sumando_b
+
+
 def get_fractions(entrada)
  numero = 0
   try:
